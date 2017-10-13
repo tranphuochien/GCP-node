@@ -1,0 +1,18 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "dependencies" : {
+  	"express": "*",
+  	"body-parser":"*",
+  	"mongoose":"*",
+    "ejs" : "^2.4.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
